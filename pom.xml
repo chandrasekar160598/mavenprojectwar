@@ -18,16 +18,5 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-26-253-releases</name>
-        <url>http://3.19.57.174:8081/artifactory/maven</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-26-253-snapshots</name>
-        <url>http://3.19.57.174:8081/artifactory/maven</url>
-    </snapshotRepository>
-</distributionManagement>
+  
 </project>

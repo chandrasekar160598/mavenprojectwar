@@ -30,7 +30,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-26-253-snapshots</name>
-        <url>http://3.19.57.174:8081/artifactory/demomavenrepository-libs-snapshot</url>
+        <url>http://3.19.57.174:8081/artifactory/demomavenrepository-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
     

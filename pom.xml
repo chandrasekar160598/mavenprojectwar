@@ -21,13 +21,13 @@
     <distributionManagement>
     <repository>
         <id>central</id>
-        <name>ip-172-31-26-253-releases</name>
-        <url>http://3.19.57.174:8081/artifactory/demomavenrepository-libs-release</url>
+        <name>ip-172-31-17-84-releases</name>
+        <url>https://18.117.160.128:8081/artifactory/newemavenrepo-libs-release</url>
     </repository>
-      <snapshotRepository>
+       <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-26-253-snapshots</name>
-        <url>http://3.19.57.174:8081/artifactory/demomavenrepository-libs-snapshot-local</url>
+        <name>ip-172-31-17-84-snapshots</name>
+        <url>https://18.117.160.128:8081/artifactory/newemavenrepo-libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
     </project>

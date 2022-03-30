@@ -22,12 +22,12 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-17-84-releases</name>
-        <url>https://18.117.160.128:8082/artifactory/newemavenrepo-libs-release</url>
+        <url>https://18.117.160.128:8081/artifactory/newemavenrepo-libs-release</url>
     </repository>
        <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-17-84-snapshots</name>
-        <url>https://18.117.160.128:8082/artifactory/newemavenrepo-libs-snapshot</url>
+        <url>https://18.117.160.128:8081/artifactory/newemavenrepo-libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
     </project>

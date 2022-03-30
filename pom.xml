@@ -22,7 +22,7 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-17-84-releases</name>
-        <url>https://18.117.160.128:8082/artifactory/demo-libs-release</url>
+        <url>https://18.117.160.128:8082/artifactory/demo-libs-release-local</url>
     </repository>
        <snapshotRepository>
         <id>snapshots</id>

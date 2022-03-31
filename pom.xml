@@ -18,8 +18,8 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
-  <distributionManagement>
-    <repositories>
+      <repositories>
+        <distributionManagement>
       <repository>
         <id>central</id>
         <url>http://52.140.48.32:8081/artifactory/maven-libs-release-local</url>
@@ -27,15 +27,19 @@
             <enabled>false</enabled>
         </snapshots>
     </repository>
+            </distributionManagement>
+          <distributionManagement>
     <repository>
-        <id>snapshots</id>
+         <id>snapshots</id>
         <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
         <releases>
             <enabled>false</enabled>
         </releases>
     </repository>
+              </distributionManagement>
 </repositories>
 <pluginRepositories>
+    <distributionManagement>
     <pluginRepository>
         <id>central</id>
         <url>http://52.140.48.32:8081/artifactory/maven-libs-release-local</url>
@@ -43,13 +47,16 @@
             <enabled>false</enabled>
         </snapshots>
     </pluginRepository>
+    </distributionManagement>
     <pluginRepository>
+        <distributionManagement>
         <id>snapshots</id>
         <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
         <releases>
             <enabled>false</enabled>
         </releases>
     </pluginRepository>
+        </distributionManagement>
 </pluginRepositories>
-      </distributionManagement>
+    
   </project>

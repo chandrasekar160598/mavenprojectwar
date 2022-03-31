@@ -28,7 +28,7 @@
     </repository>
     <repository>
         <id>snapshots</id>
-        <url>http://52.140.48.32:8082//artifactory/maven-libs-snapshot</url>
+        <url>http://52.140.48.32:8082/artifactory/maven-libs-snapshot</url>
         <releases>
             <enabled>false</enabled>
         </releases>

@@ -18,16 +18,57 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
-     <distributionManagement>
+      <servers>
+    <server>
+      <username>admin</username>
+      <password>Chandru@160598!</password>
+      <id>central</id>
+    </server>
+    <server>
+      <username>admin</username>
+      <password>Chandru@160598!</password>
+      <id>snapshots</id>
+    </server>
+  </servers>
+  <profiles>
+    <profile>
+      <repositories>
         <repository>
-        <id>central</id>
-        <name>vm-releases</name>
-        <url>http://52.140.48.32:8081/artifactory/maven-libs-release-local</url>
-    </repository>
-       <snapshotRepository>
-        <id>snapshots</id>
-        <name>vm-snapshots</name>
-        <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
- </project>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>maven-libs-release</name>
+          <url>http://52.140.48.32:8081/artifactory/maven-libs-release-local<</url>
+        </repository>
+        <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>maven-libs-snapshot</name>
+          <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local<</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>maven-libs-release</name>
+          <url>http://52.140.48.32:8081/artifactory/maven-libs-release</url>
+        </pluginRepository>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>maven-libs-snapshot</name>
+          <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>artifactory</id>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>artifactory</activeProfile>
+  </activeProfiles>
+</settings>
+</project>

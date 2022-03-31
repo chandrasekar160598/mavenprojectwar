@@ -18,8 +18,8 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
-  <distributionManagement>
      <repositories>
+       <distributionManagement>
     <repository>
         <id>central</id>
         <url>http://52.140.48.32:8082/artifactory/maven-libs-release</url>
@@ -34,6 +34,7 @@
             <enabled>false</enabled>
         </releases>
     </repository>
+         </distributionManagement>
 </repositories>
 <pluginRepositories>
     <pluginRepository>
@@ -51,5 +52,4 @@
         </releases>
     </pluginRepository>
 </pluginRepositories>
-    </distributionManagement>
-      </project>
+        </project>

@@ -1,24 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.maven</groupId>
-  <artifactId>MAVENWEBAPPLICATIONPROJECT</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>MAVENWEBAPPLICATIONPROJECT Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  <build>
-    <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
-  </build>
-      <servers>
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <servers>
     <server>
       <username>admin</username>
       <password>Chandru@160598!</password>
@@ -39,13 +22,13 @@
           </snapshots>
           <id>central</id>
           <name>maven-libs-release</name>
-          <url>http://52.140.48.32:8081/artifactory/maven-libs-release-local<</url>
+          <url>http://52.140.48.32:8081/artifactory/maven-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>maven-libs-snapshot</name>
-          <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local<</url>
+          <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -61,7 +44,7 @@
           <snapshots />
           <id>snapshots</id>
           <name>maven-libs-snapshot</name>
-          <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
+          <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
@@ -71,4 +54,3 @@
     <activeProfile>artifactory</activeProfile>
   </activeProfiles>
 </settings>
-</project>

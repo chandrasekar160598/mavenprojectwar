@@ -24,7 +24,6 @@
       <password>Chandru@160598!</password>
       <id>central</id>
       </server>
-    <servers>
     <distributionManagement>
         <repository>
         <id>central</id>
@@ -37,4 +36,5 @@
         <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
+  </servers>
     </project>

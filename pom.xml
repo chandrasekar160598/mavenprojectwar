@@ -18,11 +18,13 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
+  <servers>
     <server>
      <username>admin</username>
       <password>Chandru@160598!</password>
       <id>central</id>
       </server>
+    <servers>
     <distributionManagement>
         <repository>
         <id>central</id>

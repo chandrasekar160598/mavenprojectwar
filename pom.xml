@@ -34,8 +34,8 @@
             <enabled>false</enabled>
         </releases>
     </repository>
-         </distributionManagement>
-</repositories>
+        </repositories>
+       </distributionManagement>
 <pluginRepositories>
     <pluginRepository>
         <id>central</id>

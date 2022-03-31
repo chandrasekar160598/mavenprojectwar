@@ -18,16 +18,7 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
-  <server>
-      
-	<username>admin</username>
-      
-	<password>Chandru@160598!</password>
-      
-	<id>central</id>
-    
-   </server>
-    <distributionManagement>
+     <distributionManagement>
         <repository>
         <id>central</id>
         <name>vm-releases</name>

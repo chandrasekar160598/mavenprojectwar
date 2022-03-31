@@ -18,16 +18,85 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
-     <distributionManagement>
-        <repository>
+     Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@chandrasekar160598 
+chandrasekar160598
+/
+mavenprojectwar
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+mavenprojectwar/pom.xml
+@chandrasekar160598
+chandrasekar160598 commit
+Latest commit d234a01 4 minutes ago
+ History
+ 1 contributor
+33 lines (33 sloc)  1.17 KB
+   
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.maven</groupId>
+  <artifactId>MAVENWEBAPPLICATIONPROJECT</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>MAVENWEBAPPLICATIONPROJECT Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
+  </build>
+    <repositories>
+    <repository>
         <id>central</id>
-        <name>vm-releases</name>
         <url>http://52.140.48.32:8081/artifactory/maven-libs-release-local</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
     </repository>
-       <snapshotRepository>
+    <repository>
         <id>snapshots</id>
-        <name>vm-snapshots</name>
         <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
- </project>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+    </repository>
+</repositories>
+<pluginRepositories>
+    <pluginRepository>
+        <id>central</id>
+        <url>http://52.140.48.32:8081/artifactory/maven-libs-release-local</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </pluginRepository>
+    <pluginRepository>
+        <id>snapshots</id>
+        <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+    </pluginRepository>
+</pluginRepositories>
+  </project>

@@ -19,13 +19,7 @@
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
     <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>vm-releases</name>
-        <url>http://52.140.56.120:8081/artifactory/maven-libs-release-local</url>
-    </repository>
-<distributionManagement>
-    <snapshotRepository>
+      <snapshotRepository>
         <id>snapshots</id>
         <name>vm-snapshots</name>
         <url>http://52.140.56.120:8081/artifactory/maven-libs-snapshot-local</url>

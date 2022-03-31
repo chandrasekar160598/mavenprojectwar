@@ -30,4 +30,11 @@
         <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
-     </project>
+  <servers>
+  <server>
+    <username>admin</username>
+   	<password>admin123</password>
+    <id>central</id>
+    </server>
+    <servers>
+    </project>

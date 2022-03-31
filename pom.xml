@@ -21,13 +21,14 @@
     <distributionManagement>
     <repository>
         <id>central</id>
-        <name>ip-172-31-17-84-releases</name>
-        <url>https://20.219.114.80:8082//artifactory/maven-libs-release</url>
+        <name>vm-releases</name>
+        <url>http://52.140.56.120:8081/artifactory/maven-libs-release-local</url>
     </repository>
-       <snapshotRepository>
+<distributionManagement>
+    <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-17-84-snapshots</name>
-        <url>https://20.219.114.80:8082/artifactory/maven-libs-snapshot-local</url>
+        <name>vm-snapshots</name>
+        <url>http://52.140.56.120:8081/artifactory/maven-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
     </project>

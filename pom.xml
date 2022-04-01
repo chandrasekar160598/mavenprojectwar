@@ -21,33 +21,17 @@
      <repositories>
     <repository>
         <id>central</id>
-        <url>http://52.140.48.32:8082/artifactory/maven-libs-release</url>
+        <url>http://20.219.78.191:8081/artifactory/maven-libs-release</url>
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
     </repository>
     <repository>
         <id>snapshots</id>
-        <url>http://52.140.48.32:8082/artifactory/maven-libs-snapshot</url>
+        <url>http://20.219.78.191:8081/artifactory/maven-libs-snapshot</url>
         <releases>
             <enabled>false</enabled>
         </releases>
     </repository>
         </repositories>
-     <pluginRepositories>
-    <pluginRepository>
-        <id>central</id>
-        <url>http://52.140.48.32:8082/artifactory/maven-plugins-release</url>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-        <id>snapshots</id>
-        <url>http://52.140.48.32:8082/artifactory/maven-plugins-snapshot</url>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-    </pluginRepository>
-</pluginRepositories>
-        </project>
+         </project>

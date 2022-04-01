@@ -19,15 +19,10 @@
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
 <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>a0sfl9pqlmvra-artifactory-primary-0-releases</name>
-        <url>https://venkatesan.jfrog.io/artifactory/default-maven-virtual</url>
-    </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>a0sfl9pqlmvra-artifactory-primary-0-snapshots</name>
-        <url>https://venkatesan.jfrog.io/artifactory/default-maven-virtual</url>
+        <name>Ubuntu-snapshots</name>
+        <url>http://52.172.91.134:8082/artifactory/maven-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
  </project>

@@ -18,11 +18,11 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
- <distributionManagement>
+<distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>Ubuntu-snapshots</name>
-        <url>http://20.219.78.191:8081/artifactory/maven-libs-snapshot-local</url>
+        <url>http://52.140.48.32:8081/artifactory/maven-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
  </project>

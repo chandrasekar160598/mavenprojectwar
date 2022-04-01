@@ -4,7 +4,7 @@
   <groupId>com.maven</groupId>
   <artifactId>MAVENWEBAPPLICATIONPROJECT</artifactId>
   <packaging>war</packaging>
-  <version>1.1.2-SNAPSHOT</version>
+  <version>5.5.5-SNAPSHOT</version>
   <name>MAVENWEBAPPLICATIONPROJECT Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>

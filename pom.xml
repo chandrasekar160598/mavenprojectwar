@@ -18,20 +18,22 @@
   <build>
     <finalName>MAVENWEBAPPLICATIONPROJECT</finalName>
   </build>
+  <distributionManagement>
      <repositories>
     <repository>
         <id>central</id>
-        <url>http://20.219.78.191:8081/artifactory/maven-libs-release</url>
+        <url>http://20.219.78.191:8081/artifactory/maven-libs-release-local</url>
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
     </repository>
     <repository>
         <id>snapshots</id>
-        <url>http://20.219.78.191:8081/artifactory/maven-libs-snapshot</url>
+        <url>http://20.219.78.191:8081/artifactory/maven-libs-snapshot-local</url>
         <releases>
             <enabled>false</enabled>
         </releases>
     </repository>
         </repositories>
+    </distributionManagement>
          </project>

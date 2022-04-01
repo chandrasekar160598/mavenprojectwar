@@ -26,6 +26,8 @@
             <enabled>false</enabled>
         </snapshots>
     </repository>
+      </distributionManagement>
+    <distributionManagement>
     <repository>
         <id>snapshots</id>
         <url>http://20.219.78.191:8081/artifactory/maven-libs-snapshot-local</url>
